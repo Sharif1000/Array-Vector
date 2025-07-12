@@ -20,6 +20,10 @@ int main(){
 
   // How to use Comparison Function or Callback Function
   sort(v.begin(), v.end(), comp);
+
+  //How to make a copy from another vector
+  vector<int> v1(5, 0);
+  vector<int> v2(v1.begin(), v1.end());
   
   return 0;
 }
