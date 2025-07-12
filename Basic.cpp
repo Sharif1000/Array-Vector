@@ -24,6 +24,10 @@ int main(){
   //How to make a copy from another vector
   vector<int> v1(5, 0);
   vector<int> v2(v1.begin(), v1.end());
+
+  // How to sum all elements of a vector
+  vector<int>v3 = {2,3,5,6,8};
+  int sum = accumulate(v3.begin(),v3.end(),0);
   
   return 0;
 }
